@@ -1,0 +1,36 @@
+body{
+    background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    background: #efefef;
+    box-shadow:2px 2px 5px  #944b4d ,
+                    -2px -2px 5px #c46263;
+}
+
+.container {
+    background:linear-gradient(to right, #ffffff, #e0e0e0);
+}
+
+.view-container{
+    background: #eabebe;
+}
+
+.button-container{
+    background: transparent;
+}
+
+button{
+    background:linear-gradient(45deg, #f1765e, #d4535f);
+    box-shadow: 0 0 2px #E29587;
+}
+
+button:hover{
+    box-shadow: 0 0 10px #ff765c;
+}
+
+.ans{
+    background: linear-gradient(to right, #ee5978, #ea496c);
+}

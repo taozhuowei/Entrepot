@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两列布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .left {
+            width: 500px;
+            height: 100vh;
+            float: left;
+            background-color: red;
+        }
+        .right {
+            height: 100vh;
+            margin-left: -500px;
+            background-color: yellow;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div class="left">left</div>
+<div class="right">right</div>
+</body>
+</html>

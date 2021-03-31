@@ -1,0 +1,99 @@
+.container{
+    width: 800px;   height: 500px;
+    position: fixed;    left: calc( 50% - 400px);   top: calc(50% - 250px);
+    border-radius: 20px;
+}
+
+.panel{
+   width:360px;   height: 460px;
+    float: left;
+    margin-left: 20px;  margin-top: 20px;
+}
+
+button{
+    width: 50px;    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.view-container{
+    width: 760px;   height: 150px;
+    border: 3px solid #944b4d;
+    border-radius: 20px;
+    position: relative;
+}
+
+#view{
+    width: 90%; height: 50px;
+    font-size: 30px;
+    margin-left: 10px; margin-top: 20px;
+    padding-left: 10px;  padding-top: 10px;
+}
+
+.divider{
+    border: 1px solid #944b4d;
+}
+
+#answer{
+    width: 200px; height:50px;
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    text-align: right;
+    direction: rtl;
+}
+
+#back-button {
+    width: 40px;    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+#clear-button{
+    width: 30px;    height: 30px;
+    position: absolute;
+    left: 10px;     bottom:10px;
+}
+
+
+.button-container{
+    width: 760px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(5 , 1fr);
+    grid-template-columns: repeat(8 , 1fr);
+    place-items: center;
+    grid-gap: 10px;
+}
+.panel
+.button-container
+.numbers{
+    border-radius: 100%;
+}
+.ans{
+    grid-column-start: span 2;
+    width: 90%;
+    border-radius: 20px;
+}
+.operator{
+    border-radius: 5px;
+}
+.function{
+    width: 60px;
+}
+.button-container sup{
+    pointer-events: none;
+}
+
+footer{
+    font-size: 10px;
+    position: absolute;
+    left: calc(50% - 90px); bottom: 5px;
+}

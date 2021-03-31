@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PowerCal</title>
+    <link rel="shotcut icon" href="../icon/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../themes/white-pink.css">
+</head>
+<body>
+<div class="container">
+    <!--左侧基本功能区-->
+    <div class="panel">
+        <!--视窗区-->
+        <div class="view-container">
+            <div id="view"></div>
+            <hr class="divider" />
+            <div id="answer"></div>
+            <button type="button" id="back-button">←</button>
+            <button type="button" id="clear-button">C</button>
+        </div>
+        <!--按键区-->
+        <div class="button-container">
+            <button type="button" class="btn operator">%</button>
+            <button type="button" class="btn operator">(</button>
+            <button type="button" class="btn operator">)</button>
+            <button type="button" class="btn operator">÷</button>
+            <button type="button" class="btn function">x<sup>2</sup></button>
+            <button type="button" class="btn function">x<sup>3</sup></button>
+            <button type="button" class="btn function">x<sup>n</sup></button>
+            <button type="button" class="btn function" title="圆周率">π</button>
+
+            <button type="button" class="btn numbers">7</button>
+            <button type="button" class="btn numbers">8</button>
+            <button type="button" class="btn numbers">9</button>
+            <button type="button" class="btn operator">×</button>
+            <button type="button" class="btn function">√x</button>
+            <button type="button" class="btn function"><sup>3</sup>√x</button>
+            <button type="button" class="btn function"><sup>n</sup>√x</button>
+            <button type="button" class="function" title="自然对数">e</button>
+
+            <button type="button" class="numbers">4</button>
+            <button type="button" class="numbers">5</button>
+            <button type="button" class="numbers">6</button>
+            <button type="button" class="operator">+</button>
+            <button type="button" class="function">sin</button>
+            <button type="button" class="function">cos</button>
+            <button type="button" class="function">tan</button>
+            <button type="button" class="function" title="光速">c</button>
+
+            <button type="button" class="numbers">1</button>
+            <button type="button" class="numbers">2</button>
+            <button type="button" class="numbers">3</button>
+            <button type="button" class="operator">-</button>
+            <button type="button" class="function">sin<sup>-1</sup></button>
+            <button type="button" class="function">cos<sup>-1</sup></button>
+            <button type="button" class="function">tan<sup>-1</sup></button>
+            <button type="button" class="function" title="万有引力常数">G</button>
+
+            <button type="button" class="numbers">0</button>
+            <button type="button" class="operator">.</button>
+            <button type="button" class="operator ans">=</button>
+            <button type="button" class="function">ln</button>
+            <button type="button" class="function">lg</button>
+            <button type="button" class="function">log</button>
+            <button type="button" class="function" title="普朗克常数">h</button>
+        </div>
+    </div>
+
+    <footer>powered by tzw © 2020-9-2 copyright</footer>
+
+    <script type="module" src="../js/main.js"></script>
+</div>
+</body>
+</html>

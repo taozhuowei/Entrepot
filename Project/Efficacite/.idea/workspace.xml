@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="913b5d12-41ac-4e43-bbd4-fce2a75c7ca8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Efficacite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/components/AsideBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/plugins/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efficacite/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginForm/.idea/LoginForm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginForm/.idea/LoginForm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginForm/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginForm/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginForm/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LoginForm/Login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1c9qkCKxEZ3KA1aknkpHDcm48LP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="913b5d12-41ac-4e43-bbd4-fce2a75c7ca8" name="Default Changelist" comment="" />
+      <created>1589951297827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589951297827</updated>
+      <workItem from="1589951302247" duration="9809000" />
+      <workItem from="1590035632205" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="641" y="180" key="EditFileWatcherDialog" timestamp="1589963639039">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="641" y="180" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1589963639039" />
+  </component>
+</project>

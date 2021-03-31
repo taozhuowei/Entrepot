@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS画图</title>
+    <style>
+        .container {
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid;
+        }
+        .triangle {
+            border: 50px solid;
+            border-color: transparent red transparent transparent;
+        }
+        .sector {
+            border: 50px solid;
+            border-color: red transparent transparent transparent;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>三角形</h1>
+    <div class="triangle"></div>
+
+    <h1>扇形</h1>
+    <div class="sector"></div>
+</div>
+</body>
+</html>

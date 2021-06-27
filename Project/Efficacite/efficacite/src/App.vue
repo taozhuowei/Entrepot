@@ -2,7 +2,7 @@
   <div id="app">
     <el-row>
       <el-col :span="2">
-        <aside-bar></aside-bar>
+        <aside-bar  @open-window="openWindow"></aside-bar>
       </el-col>
 
       <el-col span="6">

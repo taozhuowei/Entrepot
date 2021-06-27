@@ -15,7 +15,7 @@ let expression = (function () {
         //入栈
         push(val) {
             this[expression].push(val);
-            console.log(this[expression]);
+            //console.log(this[expression]);
         }
 
         //出栈
@@ -31,6 +31,14 @@ let expression = (function () {
         //清空栈
         empty() {
             this[expression] = [];
+        }
+
+        get expression() {
+            console.log('expression getter');
+        }
+
+        set expression(val) {
+            console.log('expression setter , new value: '+val);
         }
     }
 

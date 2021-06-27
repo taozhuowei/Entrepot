@@ -7,10 +7,10 @@ import judge from "./judge.js";
  * @param val 按键值
  */
 function handleInput(val) {
-    console.log('user input: '+val);
+    //console.log('user input: '+val);
 
     //判断输入的是什么？
-    console.log(judge(val));
+    //console.log(judge(val));
     const type = judge(val);
     //如果值不是函数，则直接显示
     if (!type.includes('function')) {
@@ -27,7 +27,7 @@ function handleInput(val) {
 }
 
 export function backspace() {
-    console.log('backspace');
+    //console.log('backspace');
     view.backspace();
     expression.pop();
 }

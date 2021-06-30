@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "阿圆便利店",
-  "usingComponents": {
-    "u-top-tips": "/node-modules/uview-ui/components/u-top-tips/u-top-tips"
-  }
-}

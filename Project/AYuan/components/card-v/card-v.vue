@@ -46,7 +46,7 @@
 
 <style lang="scss">
 	.card-v-container {
-		border: $uni-border;
+		border: 1px solid $uni-bg-color-grey;
 		border-radius: $uni-border-radius-base;
 		overflow: hidden;
 	}

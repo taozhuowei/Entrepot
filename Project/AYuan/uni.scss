@@ -40,26 +40,22 @@ $uni-text-color-disable:#c0c0c0;
 $uni-text-color-title: #392f41; // 标题颜色
 
 /* 背景颜色 */
-$uni-bg-color:linear-gradient(170deg, #0ba360 0%, #3cba92 80%);
+$uni-bg-color: #0ba360;
 $uni-bg-color-base:#ffffff;
 $uni-bg-color-grey:#f4f4f4;
 $uni-bg-color-dark:#392f41;
-$uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
-
-/* 边框 */
-$uni-border:1px solid #d6ecf0;
+$uni-bg-color-mask:rgba(0 ,0, 0, 0.1);//遮罩颜色
 
 /*分隔线*/
 $uni-divider: 1px dotted #d6ecf0;
 
 /* 尺寸变量 */
-$uni-width-main: 700rpx;
-$uni-width-half: 340rpx;
+$uni-width-main: 720rpx;
+$uni-width-half: 350rpx;
 
 /* 文字尺寸 */
-$uni-font-size-mini: 18rpx;
 $uni-font-size-sm:24rpx;
-$uni-font-size-base:28rpx;
+$uni-font-size-base:32rpx;
 $uni-font-size-lg:36rpx;
 
 /* 图片尺寸 */
@@ -67,7 +63,7 @@ $uni-img-size-sm:40rpx;
 $uni-img-size-base:52rpx;
 $uni-img-size-lg:80rpx;
 
-/* Border Radius */
+/* 边框圆角 */
 $uni-border-radius-sm: 10rpx;
 $uni-border-radius-base: 20rpx;
 $uni-border-radius-lg: 60rpx;

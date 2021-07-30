@@ -6,8 +6,8 @@
 		
 		<template slot="footer">
 			<view class="footer-content">
-				<price :price="9.99" :vipPrice="0.99" :originPirce="19.99"></price>
-				<u-icon name="/static/add.png" size="50"></u-icon>
+				<price :price="999" :vipPrice="99" :originPirce="1999"></price>
+				<u-icon name="/static/addToCart.png" size="50"></u-icon>
 			</view>
 		</template>
 	</card-v>

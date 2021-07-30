@@ -1,12 +1,11 @@
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import App from './App.vue'
 
 //vue router
-
-import router from '@/router'
+import router from '@/router/index'
 
 //vuex
-import store from '@/store'
+import store from '@/store/index'
 
 //element plus
 import 'element-plus/packages/theme-chalk/src/base.scss'
@@ -20,13 +19,29 @@ import {
     ElAffix,
     ElMenu,
     ElMenuItem,
+    ElRow,
+    ElCol,
+    ElCard,
+    ElPopover,
+    ElDialog,
+    ElForm,
+    ElFormItem,
+    ElInput,
 } from 'element-plus'
 
 const components = [
     ElButton,
     ElAffix,
     ElMenu,
-    ElMenuItem
+    ElMenuItem,
+    ElRow,
+    ElCol,
+    ElCard,
+    ElPopover,
+    ElDialog,
+    ElForm,
+    ElFormItem,
+    ElInput,
 ]
 
 const plugins = [

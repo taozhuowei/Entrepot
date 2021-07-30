@@ -1,41 +1,37 @@
 <!-- 首页 -->
 <template>
 	<view class="page-container">
-		<!-- 返回提示 -->
-		<u-top-tips ref="tips"></u-top-tips>
-
 		<!-- 顶部信息：门店定位 个人信息 -->
 		<u-sticky>
-			<info-bar class="info-bar"></info-bar>
+			<info-bar class="info-bar" />
 		</u-sticky>
 
 		<!-- 轮播图 -->
-		<banner class="banner"></banner>
+		<banner class="banner" />
 
 		<!-- 金刚区 -->
-		<function-area class="function-area"></function-area>
+		<function-area class="function-area" />
 
 		<!-- 限时抢购 & 商品排行榜 -->
 		<view class="flashsale-ranking-list">
-			<flashsale></flashsale>
-			<ranking-list></ranking-list>
+			<flashsale />
+			<ranking-list />
 		</view>
 
 		<!-- 商品推荐 -->
 		<view class="index-content">
-			<recommend-list></recommend-list>
+			<recommend-list />
 		</view>
 	</view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-	}
+export default {
+    data() {
+        return {
+        };
+    },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -58,7 +54,6 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-top: $uni-spacing-lg;
 	}
 
 	.index-content {

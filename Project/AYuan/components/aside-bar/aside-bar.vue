@@ -8,7 +8,7 @@
 				@click="handleChangeItem(index)" ref="items">
 				
 				<!-- 项中的图标和名称 -->
-				<u-icon :name="item.icon" size="30"></u-icon>
+				<u-icon :name="'/static/'+item.icon+'.png'" size="30"></u-icon>
 				<text class="aside-item-title">{{ item.dicName }}</text>
 			</view>
 		</view>
@@ -25,24 +25,52 @@
 			return {
 				itemList: [
 					{
-						icon: 'level',
+						icon: 'selected',
 						dicName: '阿圆优选'
 					},
 					{
-						icon: 'level',
-						dicName: '阿圆优选'
+						icon: 'season',
+						dicName: '季节限定'
 					},
 					{
-						icon: 'level',
-						dicName: '阿圆优选'
+						icon: 'new',
+						dicName: '新品上市'
 					},
 					{
-						icon: 'level',
-						dicName: '阿圆优选'
+						icon: 'vip',
+						dicName: '会员优惠'
 					},
 					{
-						icon: 'level',
-						dicName: '阿圆优选'
+						icon: 'coffee',
+						dicName: '阿圆咖啡'
+					},
+					{
+						icon: 'fruit',
+						dicName: '新鲜水果'
+					},
+					{
+						icon: 'oden',
+						dicName: '关东热煮'
+					},
+					{
+						icon: 'cooked',
+						dicName: '熟食便当'
+					},
+					{
+						icon: 'bread',
+						dicName: '烘焙面包'
+					},
+					{
+						icon: 'drink',
+						dicName: '酒水饮料'
+					},
+					{
+						icon: 'ice',
+						dicName: '冷冻食品'
+					},
+					{
+						icon: 'life',
+						dicName: '生活用品'
 					},
 				],
 				activeItem: 0,
@@ -76,7 +104,7 @@
 
 <style lang="scss">
 	.aside-bar-container {
-		width: 240rpx;
+		width: 260rpx;
 		height: 100%;
 		display: flex;
 		flex-direction: column;
@@ -89,9 +117,9 @@
 
 	.aside-item {
 		width: 101%;
-		height: 90rpx;
+		height: 80rpx;
 		display: flex;
-		justify-content: center;
+		justify-content: space-evenly;
 		align-items: center;
 	}
 	
@@ -100,8 +128,8 @@
 	}
 
 	.aside-item-title {
-		font-size: $uni-font-size-base;
-		font-weight: bold;
+		font-size: $uni-font-size-sm;
+		font-weight: 500;
 		color: $uni-text-color-title;
 	}
 	

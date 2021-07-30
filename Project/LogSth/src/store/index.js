@@ -1,6 +1,5 @@
-import { createStore } from 'vuex'
-
-export default createStore({
+import { createStore } from 'vuex';
+const store = createStore({
     state() {
         return {
             count: 0
@@ -8,10 +7,10 @@ export default createStore({
     },
     mutations: {
         ADD(state) {
-            state.count ++
+            state.count++;
         }
     },
-    actions: {
-
-    },
+    actions: {},
 });
+export default store;
+//# sourceMappingURL=index.js.map

@@ -9,17 +9,100 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "阿圆便利店"
+				"navigationBarTitleText": "阿圆便利店",
+				"navigationBarBackgroundColor": "#0ba360",
+				"navigationBarTextStyle": "white"
 			},
 			"app-plus": {
 				"scrollIndicator": "none"
 			}
 		}
+        , {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "全部商品",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#0ba360",
+				"navigationBarTextStyle": "white"
+			}
+
+        }
+        , {
+			"path": "pages/checkout/checkout",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+
+        }
+        , {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户中心",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+
+        }
+        , {
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+        }
+        , {
+			"path": "pages/coupon-center/coupon-center",
+			"style": {
+				"navigationBarTitleText": "领券中心",
+				"enablePullDownRefresh": false
+			}
+
+        }
+        , {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "地址选择",
+				"enablePullDownRefresh": false
+			}
+
+        }
         ,{
-            "path" : "pages/shop/shop",
+            "path" : "pages/coupon-choose/coupon-choose",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "全部商品",
+                "navigationBarTitleText": "选择优惠券",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/vip-center/vip-center",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会员中心",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#0ba360",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/order-detail/order-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
                 "enablePullDownRefresh": false
             }
             
@@ -28,7 +111,10 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarBackgroundColor": "#F4F4F4",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"animationType":"pop-in"
+		}
 	}
 }

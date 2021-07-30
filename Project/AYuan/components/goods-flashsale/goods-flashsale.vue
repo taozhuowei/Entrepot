@@ -16,14 +16,14 @@
 </template>
 
 <script>
-	export default {
-		name: "goods-flashsale",
-		data() {
-			return {
+export default {
+    name: "goods-flashsale",
+    data() {
+        return {
 
-			};
-		}
-	}
+        };
+    }
+};
 </script>
 
 <style lang="scss">
@@ -50,9 +50,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: $uni-font-size-mini;
+		font-size: $uni-font-size-sm;
 		color: $uni-color-sub;
 		border: 1px solid $uni-color-sub;
-		border-radius: $uni-border-radius-sm;
 	}
 </style>

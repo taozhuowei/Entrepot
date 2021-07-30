@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "element-plus": "^1.0.2-beta.53",
+    "marked": "^2.1.3",
     "vue": "^3.0.5",
     "vue-router": "^4.0.10",
     "vuex": "^4.0.2"

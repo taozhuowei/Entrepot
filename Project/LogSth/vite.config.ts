@@ -27,7 +27,8 @@ export default defineConfig({
   resolve: {
     alias: [
       {find: '@' , replacement: '/src'},
-      {find: '@c' , replacement: '/src/components'}
+      {find: '@c' , replacement: '/src/components'},
+      {find: '@v' , replacement: '/src/views'}
     ]
   }
 })

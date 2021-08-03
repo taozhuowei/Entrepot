@@ -10,7 +10,7 @@
  * @param  {...any} args 
  * @returns new新建的对象
  */
-const myNew = (constructor , ...args) {
+const myNew = (constructor , ...args) => {
     if (typeof constructor !== 'function') throw 'parameter 1 is not a function';
     const obj = Object.create(constructor); // 创建对象，完成原型指向
     const res = constructor.call(obj , ...args); //  完成this绑定

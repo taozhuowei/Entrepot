@@ -47,7 +47,11 @@ const preorderTraversal = (tree) => {
     return res;
 }
 
-
+/**
+ * 二叉树后序遍历
+ * @param {array} tree 
+ * @returns 遍历结果
+ */
 const postorderTraversal = (tree) => {
     const res = [];
     const stack = [];

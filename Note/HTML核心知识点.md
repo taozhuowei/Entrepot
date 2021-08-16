@@ -62,35 +62,12 @@ img \ input \ select \ button \ label …
 
 * Web Storage
 
-## LocalStorage & SessionStorage & Cookie
+## readonly 和 disabled 的区别
 
-**相同点**
+二者都禁止用户修改表单内容
 
-* 用于存储用户临时信息
-* 只能存字符串（可以存其他类型，但是浏览器不支持）
-* 不同浏览器间无法共享
+- readonly仅适用于表单中的文本域，如input和textarea；
 
-**不同点**
+disabled适用于所有表单元素
 
-* LocalStorage 生命周期为永久，除非用户显式清除，否则永远存在
-
-  SessionStorage生命周期为当前窗口或标签页，一旦关闭，则消失
-
-  Cookie在浏览器关闭后失效
-
-* 相同浏览器，同源的不同页面可以共享LocalStorage，不可以共享SessionStorage
-
-  一个标签页包含多个同源iframe，则可以共享SessionStorage
-
-* LocalStorage 、SessionStorage 可以存5M的数据
-
-  Cookie只能存4K左右的数据
-
-* LocalStorage 、SessionStorage仅在浏览器中保存，不与服务器通信
-
-  Cookie会包含在HTTP头中
-
-* LocalStorage 、SessionStorage可以直接调用`setItem \ getItem`方法
-
-  Cookie需要自己封装
-
+- 在发送GET或POST请求时，设置了disabled的表单元素的值不会传递，而readonly会传递

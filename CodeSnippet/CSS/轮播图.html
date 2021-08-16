@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner {
+            width: 300px;
+            height: 150px;
+            overflow: hidden;
+        }
+
+        .wrapper {
+            width: 9999px;
+            height: 100%;
+            animation: banner 10.5s infinite;
+        }
+
+        .wrapper div {
+            width: 300px;
+            height: 150px;
+            transition: all 0.5s;
+        }
+
+        .img1 {
+            float: left;
+            background-color: aqua;
+        }
+
+        .img2 {
+            float: left;
+            background-color: aquamarine;
+        }
+
+        .img3 {
+            float: left;
+            background-color: bisque;
+        }
+
+        @keyframes banner {
+            0% {
+                margin-left: 0;
+            }
+
+            28.5% {
+                margin-left: 0;
+            }
+
+            33.3% {
+                margin-left: -300px;
+            }
+
+            62% {
+                margin-left: -300px;
+            }
+
+            66.7% {
+                margin-left: -600px;
+            }
+
+            95.2% {
+                margin-left: -600px;
+            }
+
+            100% {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 原理： 内层包裹元素wrapper设置一个极大的宽度
+                子元素（img）设置 浮动
+                wrapper添加动画，用左边距的负值“拉动”img
+    -->
+    <div class="banner">
+        <div class="wrapper">
+            <div class="img1"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+        </div>
+    </div>
+</body>
+
+</html>

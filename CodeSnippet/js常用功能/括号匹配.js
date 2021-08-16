@@ -11,20 +11,50 @@ const checkBracket = (str) => {
     const stack = [];
 
     for (let c of temp) {
-        if (c === '(') stack.push(c);
+        if (isLeftBracket(c)) stack.push(c);
         
-        if (c === ')') {
+        if (isRightBracket(c)) {
             const top = stack[stack.length - 1];
-            if (top === '(') stack.pop();
+            if (match(top , c)) stack.pop();
         }
     }
 
     return stack.length === 0;
 }
 
-const str = '(((((())';
-const str1 = '()()(1)()';
-const str2 = '((123(())))';
+/**
+ * 判断是否是左括号
+ * @param {string} bracket 
+ * @returns boolean
+ */
+function isLeftBracket(bracket) {
+    return /[\(\[\{]/.test(bracket);
+}
+
+/**
+ * 判断是否是右括号
+ * @param {string} bracket 
+ * @returns boolean
+ */
+function isRightBracket(bracket) {
+    return /[\)\]\}]/.test(bracket);
+}
+
+/**
+ * 判断左右括号是否匹配
+ * @param {string} left 
+ * @param {string} right 
+ * @returns boolean
+ */
+function match(left , right) {
+    return (left === '(' && right === ')') ||
+            (left === '[' && right === ']') ||
+            (left === '{' && right === '}');
+}
+
+const str = '{[]}()';
+const str1 = '()[](1){}';
+const str2 = '[((((()]{}1))))}';
 
 console.log(checkBracket(str));
 console.log(checkBracket(str1));

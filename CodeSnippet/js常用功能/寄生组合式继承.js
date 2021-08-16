@@ -1,12 +1,11 @@
-function Parent() {
-    this.firstName = 'jack';
+function Parent(name) {
+    this.firstName = name;
 }
 
 function Son() {
-    Parent.call(this);
+    Parent.call(this , 'tom');
     this.lastName = 'jones';
 }
 
 Son.prototype = Object.create(Parent.prototype);
-Object.setPrototypeOf(Son , Parent);
 Son.prototype.constructor = Son;

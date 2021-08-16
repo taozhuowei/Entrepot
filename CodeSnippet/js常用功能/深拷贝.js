@@ -13,7 +13,6 @@ const deepClone = (obj , cache = []) => {
 
     // 查找缓存，避免对象中的属性引用了此对象造成循环引用
     const hit = find(cache , c => c.original === obj);
-    console.log();
     // 命中缓存，直接返回
     if (hit) {
         return hit.copy;

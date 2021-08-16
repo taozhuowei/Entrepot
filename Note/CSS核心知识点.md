@@ -1,5 +1,3 @@
-[toc]
-
 # CSS
 
 ## 盒子模型
@@ -78,3 +76,26 @@
 > **父子元素**，如果子元素设置了**margin**且父元素的**border、padding**都是0的情况下会发生外边距重叠
 
 解决方法： BFC
+
+## Flex布局
+
+- flex-basis
+
+设置元素的基准尺寸
+
+- flex: 1
+
+等同于flex-grow + flex-shrink  + flex-basis
+
+## flex-grow：1的含义
+
+当父元素存在剩余空间时，会将剩余空间分为1份分给该元素
+
+## getComputedStyle() 和 style 的区别
+
+- style属性只获取元素的内联样式
+- `getComputedStyle()`方法取得的是元素的最终样式
+
+**注意在获取float属性时，由于float时JavaScript的关键字，因此要使用cssFloat**
+
+## rpx

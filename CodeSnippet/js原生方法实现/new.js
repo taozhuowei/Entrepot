@@ -18,3 +18,6 @@ const myNew = (constructor , ...args) => {
     const isFunction = typeof res === 'function';
     return isObject || isFunction ? res : obj;
 }
+
+
+
